@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="orangeHRM.Testcases.LoginpageTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- orangeHRM.Testcases.LoginpageTest -->
+      <class name="orangeHRM.Testcases.deletesimpleemploeforpractice">
+        <methods>
+          <include name="simpledelete"/>
+        </methods>
+      </class> <!-- orangeHRM.Testcases.deletesimpleemploeforpractice -->
+      <class name="orangeHRM.Testcases.Homepagetest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- orangeHRM.Testcases.Homepagetest -->
+      <class name="orangeHRM.Testcases.AddemployeeTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- orangeHRM.Testcases.AddemployeeTest -->
+      <class name="orangeHRM.Testcases.Employeelisttest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- orangeHRM.Testcases.Employeelisttest -->
+      <class name="orangeHRM.Testcases.EmpdeleteTest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- orangeHRM.Testcases.EmpdeleteTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
